@@ -9,7 +9,8 @@ export default function Meaning(props) {
             <p>
               {definition.definition}
               <br />
-              {definition.exampe}
+              <strong> Example: </strong>
+              {definition.example}
             </p>
           </div>
         );
