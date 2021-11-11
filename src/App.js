@@ -10,6 +10,18 @@ export default function App() {
           <Dictionary />
         </main>
       </div>
+      <footer>
+        {" "}
+        <a
+          href="https://github.com/RimaGai/dictionary"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Open source code
+        </a>{" "}
+        by Rima Gaileviciute
+      </footer>
     </div>
   );
 }

@@ -21,9 +21,14 @@ export default function Dictionary() {
     setKeyword(event.target.value);
   }
   return (
-    <div className="Dictionary mt-5">
+    <div className="Dictionary mt-3">
+      <h1> Dictionary App</h1>
       <form onSubmit={search}>
-        <input type="search" placeholder="Search" onChange={handleKeyword} />
+        <input
+          type="search"
+          placeholder="Type a word"
+          onChange={handleKeyword}
+        />
       </form>
       <Results results={results} />
     </div>
