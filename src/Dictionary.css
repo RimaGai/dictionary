@@ -3,9 +3,19 @@ h1 {
   font-family: "Merriweather", serif;
 }
 
-input {
+.Dictionary input {
   display: block;
   margin: 0 auto;
+  width: 30%;
+  padding: 8px 6px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.Dictionary section {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
 }
 
 .Results {

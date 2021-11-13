@@ -7,13 +7,13 @@ export default function App() {
       {" "}
       <div className="container">
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="curiosity" />
         </main>
       </div>
       <footer>
         {" "}
         <a
-          href="https://github.com/RimaGai/dictionary"
+          href="https://github.com/RimaGai/weather-react"
           rel="noopener noreferrer"
           target="_blank"
         >
