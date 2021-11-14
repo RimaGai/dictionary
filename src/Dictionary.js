@@ -46,20 +46,20 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="row">
-          <div className="col-6">
+          <div className="col-sm-6">
             <section>
               <h1>Dictionary</h1>
               <form onSubmit={handleSubmit} className="mt-3">
                 <input
                   type="search"
-                  placeholder="Type a word you are interested in..."
+                  placeholder="Type a word..."
                   onChange={handleKeyword}
                 />
               </form>
             </section>
             <Results results={results} />
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <Photos photos={photos} />
             <Footer />
           </div>
