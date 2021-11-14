@@ -3,17 +3,17 @@ import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App bg-image">
       {" "}
       <div className="container">
         <main>
-          <Dictionary defaultKeyword="curiosity" />
+          <Dictionary defaultKeyword="curious" />
         </main>
       </div>
       <footer>
         {" "}
         <a
-          href="https://github.com/RimaGai/weather-react"
+          href="https://github.com/RimaGai/dictionary"
           rel="noopener noreferrer"
           target="_blank"
         >
