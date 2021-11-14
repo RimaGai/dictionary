@@ -1,0 +1,35 @@
+.Meaning h4 {
+  margin-top: -50px;
+  margin-left: 80px;
+}
+.Meaning .Example {
+  display: inline-block;
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(99, 94, 94);
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.Meaning .Example:first-letter {
+  text-transform: capitalize;
+}
+
+.Meaning .Definition {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.Meaning .Definition:first-letter {
+  text-transform: capitalize;
+}
+
+.Synonyms li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-style: italic;
+}
