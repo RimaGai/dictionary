@@ -15,11 +15,18 @@ body {
   h1 {
     margin-left: -90px;
   }
+
   h2 {
     margin-left: -100px;
   }
-  img {
-    width: 250px;
-    display: block;
+  h4 {
+    margin-right: 100px;
+  }
+  .Example,
+  .Definition {
+    margin-right: 100px;
+  }
+  .Photos img {
+    width: 300px;
   }
 }
