@@ -1,5 +1,7 @@
 .Synonyms li {
-  display: inline;
-  margin-right: 10px;
+  display: inline-block;
+  padding-right: 10px;
   font-size: 16px;
+  text-transform: capitalize;
+  margin-left: 30px;
 }

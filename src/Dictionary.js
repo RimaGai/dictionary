@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Results from "./Results";
 import Photos from "./Photos";
+import Footer from "./Footer";
 import axios from "axios";
 import "./Dictionary.css";
 
@@ -47,10 +48,11 @@ export default function Dictionary(props) {
         <div className="row">
           <div className="col-6">
             <section>
-              <form onSubmit={handleSubmit}>
+              <h1>Dictionary</h1>
+              <form onSubmit={handleSubmit} className="mt-3">
                 <input
                   type="search"
-                  placeholder="Type a word"
+                  placeholder="Type a word you are interested in..."
                   onChange={handleKeyword}
                 />
               </form>
@@ -59,6 +61,7 @@ export default function Dictionary(props) {
           </div>
           <div className="col-6">
             <Photos photos={photos} />
+            <Footer />
           </div>
         </div>
       </div>

@@ -7,21 +7,9 @@ export default function App() {
       {" "}
       <div className="container">
         <main>
-          <Dictionary defaultKeyword="curious" />
+          <Dictionary defaultKeyword="coding" />
         </main>
       </div>
-      <footer>
-        {" "}
-        <a
-          href="https://github.com/RimaGai/dictionary"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          {" "}
-          Open source code
-        </a>{" "}
-        by Rima Gaileviciute
-      </footer>
     </div>
   );
 }
