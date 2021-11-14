@@ -7,13 +7,13 @@ export default function Meaning(props) {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <p>
+            <h6>
               {definition.definition}
               <br />
               {definition.example}
               <br />
               <Synonyms synonyms={definition.synonyms} />
-            </p>
+            </h6>
           </div>
         );
       })}
