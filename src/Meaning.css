@@ -1,6 +1,7 @@
 .Meaning h4 {
   margin-top: -50px;
   margin-left: 80px;
+  color: #00224c;
 }
 .Meaning .Example {
   display: inline-block;
@@ -28,7 +29,11 @@
   display: inline-block;
   font-size: 15px;
   text-transform: capitalize;
-  margin-left: 30px;
+  padding-right: 10px;
   margin-top: 10px;
   font-style: italic;
+}
+
+.Synonyms {
+  margin-left: 50px;
 }

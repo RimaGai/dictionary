@@ -49,7 +49,7 @@ export default function Dictionary(props) {
           <div className="col-sm-6">
             <section>
               <h1>Dictionary</h1>
-              <form onSubmit={handleSubmit} className="mt-3">
+              <form onSubmit={handleSubmit} className="mt-3 mb-3">
                 <input
                   type="search"
                   placeholder="Type a word..."

@@ -13,20 +13,32 @@ body {
     background-color: #989e8a;
   }
   h1 {
-    margin-left: -90px;
+    margin-left: -100px;
   }
 
   h2 {
-    margin-left: -100px;
+    margin-left: -90px;
+    margin-bottom: 40px;
   }
   h4 {
-    margin-right: 100px;
+    margin-right: 90px;
   }
+
   .Example,
   .Definition {
-    margin-right: 100px;
+    margin-right: 70px;
+    margin-top: 20px;
+  }
+  .Synonyms li {
+    padding-right: 10px;
+  }
+  .Synonyms {
+    margin-right: 90px;
   }
   .Photos img {
-    width: 300px;
+    width: 200px;
+  }
+  section {
+    background-color: #7d876d;
   }
 }
