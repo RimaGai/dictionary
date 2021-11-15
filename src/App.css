@@ -36,7 +36,8 @@ body {
     margin-right: 90px;
   }
   .Photos img {
-    width: 200px;
+    width: 300px;
+    padding-left: 125px;
   }
   section {
     background-color: #7d876d;
