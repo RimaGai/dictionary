@@ -24,3 +24,14 @@
 .Results {
   text-align: center;
 }
+.Results h2 {
+  text-transform: capitalize;
+  margin-top: -50px;
+  margin-right: -80px;
+  color: #00224c;
+}
+.Photos img {
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-left: -63px;
+}
