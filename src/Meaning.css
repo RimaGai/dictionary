@@ -1,5 +1,4 @@
 .Meaning h4 {
-  margin-top: -50px;
   color: #00224c;
 }
 .Meaning .Example {
@@ -7,7 +6,6 @@
   font-style: italic;
   font-size: 16px;
   color: rgb(99, 94, 94);
-  margin-top: 10px;
 }
 
 .Meaning .Example:first-letter {
