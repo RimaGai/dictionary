@@ -4,7 +4,7 @@ export default function Photos(props) {
   if (props.photos) {
     return (
       <section className="Photos">
-        <div className="row">
+        <div className="row g-4">
           {props.photos.map(function (photo, index) {
             return (
               <div className="col-md-4" key={index}>
