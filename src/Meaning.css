@@ -1,6 +1,5 @@
 .Meaning h4 {
   margin-top: -50px;
-  margin-left: 80px;
   color: #00224c;
 }
 .Meaning .Example {
@@ -8,7 +7,6 @@
   font-style: italic;
   font-size: 16px;
   color: rgb(99, 94, 94);
-  margin-left: 70px;
   margin-top: 10px;
 }
 
@@ -18,7 +16,6 @@
 
 .Meaning .Definition {
   display: inline-block;
-  margin-left: 60px;
 }
 
 .Meaning .Definition:first-letter {

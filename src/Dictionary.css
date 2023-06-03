@@ -1,3 +1,5 @@
+
+
 .Dictionary input {
   display: block;
   margin: 0 auto;
@@ -17,7 +19,7 @@
 .Dictionary h1 {
   text-align: center;
   margin-top: -10px;
-  margin-right: -85px;
+
   color: #00224c;
 }
 
@@ -27,11 +29,10 @@
 .Results h2 {
   text-transform: capitalize;
   margin-top: -50px;
-  margin-right: -80px;
+
   color: #00224c;
 }
 .Photos img {
   border-radius: 6px;
   margin-bottom: 20px;
-  margin-left: -63px;
 }
