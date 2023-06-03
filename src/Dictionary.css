@@ -1,5 +1,3 @@
-
-
 .Dictionary input {
   display: block;
   margin: 0 auto;
@@ -7,31 +5,38 @@
   padding: 8px 6px;
   border-radius: 5px;
   border: 1px solid;
-  margin-right: 60px;
+}
+
+.Dictionary {
+  max-width: 700px;
+  display: block;
+  margin: auto;
 }
 
 .Dictionary section {
   border-radius: 10px;
   padding: 20px;
-  margin: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .Dictionary h1 {
   text-align: center;
   margin-top: -10px;
-
   color: #00224c;
 }
 
 .Results {
-  text-align: center;
+  text-align: left;
 }
 .Results h2 {
   text-transform: capitalize;
   margin-top: -50px;
-
+  margin-bottom: 50px;
   color: #00224c;
+  margin-left: 20px;
 }
+
 .Photos img {
   border-radius: 6px;
   margin-bottom: 20px;

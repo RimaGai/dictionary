@@ -46,7 +46,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="row">
-          <div className="col-sm-6">
+          <div>
             <section>
               <h1>Dictionary</h1>
               <form onSubmit={handleSubmit} className="mt-3 mb-3">
@@ -59,11 +59,11 @@ export default function Dictionary(props) {
             </section>
             <Results results={results} />
           </div>
-          <div className="col-md-6">
+          <div>
             <Photos photos={photos} />
-            <Footer />
           </div>
         </div>
+        <Footer />
       </div>
     );
   } else {
